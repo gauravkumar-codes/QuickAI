@@ -544,4 +544,4 @@ Treating unreliable third-party services as a design constraint: atomic quotas w
 
 ---
 
-*Built by [Your Name]. Replace the placeholders (live URL, screenshots, name) before publishing.*
+*Built by Gaurav Kumar.
