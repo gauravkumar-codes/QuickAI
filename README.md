@@ -2,7 +2,7 @@
 
 A full-stack **AI SaaS web app**. Users sign in, then write articles, generate blog titles and images, remove backgrounds or objects from photos, and get resume feedback. It runs entirely on **free tiers** and is built the way a real product is: authentication, plans, per-user limits, validation, retries when the AI is overloaded, structured logs, tests and a deploy pipeline.
 
-> **Live demo:** `https://quick-ai-six-teal.vercel.app/`
+> > **Live demo:** [https://quick-ai-six-teal.vercel.app/](https://quick-ai-six-teal.vercel.app/)
 
 ## Screenshots
 
