@@ -3,8 +3,31 @@
 A full-stack **AI SaaS web app**. Users sign in, then write articles, generate blog titles and images, remove backgrounds or objects from photos, and get resume feedback. It runs entirely on **free tiers** and is built the way a real product is: authentication, plans, per-user limits, validation, retries when the AI is overloaded, structured logs, tests and a deploy pipeline.
 
 > **Live demo:** `https://quick-ai-six-teal.vercel.app/`
-> **Screenshots:** add ![Dashboard](docs/screenshots/dashboard.png),
-> `write-article.png`, `generate-image.png`, `community.png`
+
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="docs/screenshots/dashboard.png" alt="Dashboard" width="100%" /><br />
+      <sub><b>Dashboard</b></sub>
+    </td>
+    <td align="center">
+      <img src="docs/screenshots/write-article.png" alt="Write Article" width="100%" /><br />
+      <sub><b>Write Article</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="docs/screenshots/blog-titles.png" alt="Blog Titles" width="100%" /><br />
+      <sub><b>Blog Titles</b></sub>
+    </td>
+    <td align="center">
+      <img src="docs/screenshots/generate-image.png" alt="Generate Image" width="100%" /><br />
+      <sub><b>Generate Image</b></sub>
+    </td>
+  </tr>
+</table>
 
 **30-second pitch.** *"Quick.ai is a React + Express app with six AI tools. The browser never talks to an AI provider; it calls my API, which checks the user's identity and plan, reserves a daily quota atomically in Postgres, calls Gemini, Cloudflare or Cloudinary with retry and fallback, saves the result and returns it. The interesting engineering is making free, unreliable AI APIs behave like a dependable product: atomic quotas with refunds, shared-budget caps, patient retries, fail-fast on quota errors, and safe handling of untrusted input."*
 
