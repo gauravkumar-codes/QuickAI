@@ -27,6 +27,12 @@ A full-stack **AI SaaS web app**. Users sign in, then write articles, generate b
       <sub><b>Generate Image</b></sub>
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <img src="docs/screenshots/community.png" alt="Community Posts" width="50%" /><br />
+      <sub><b>Community Posts</b></sub>
+    </td>
+  </tr>
 </table>
 
 **30-second pitch.** *"Quick.ai is a React + Express app with six AI tools. The browser never talks to an AI provider; it calls my API, which checks the user's identity and plan, reserves a daily quota atomically in Postgres, calls Gemini, Cloudflare or Cloudinary with retry and fallback, saves the result and returns it. The interesting engineering is making free, unreliable AI APIs behave like a dependable product: atomic quotas with refunds, shared-budget caps, patient retries, fail-fast on quota errors, and safe handling of untrusted input."*
