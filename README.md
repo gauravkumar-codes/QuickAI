@@ -29,7 +29,7 @@ A full-stack **AI SaaS web app**. Users sign in, then write articles, generate b
   </tr>
   <tr>
     <td align="center">
-      <img src="docs/screenshots/community.png" alt="Community Posts" width="50%" /><br />
+      <img src="docs/screenshots/community.png" alt="Community Posts" width="100%" /><br />
       <sub><b>Community Posts</b></sub>
     </td>
   </tr>
